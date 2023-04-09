@@ -1,0 +1,45 @@
+footer{
+    display: flex;
+    flex-direction: row;
+    margin-top: 28.45rem;
+    height: 6rem;
+}
+
+footer img{
+    width: 15rem;
+}
+
+.socials{
+    display: flex;
+    flex-direction: row;
+    width: 55rem;
+    background-color: #E5E5E5;
+    font-weight: 700;
+}
+
+.socials p{
+    margin-left: 6rem;
+    margin-top: 2.5rem;
+}
+
+.explore{
+    display: flex;
+    flex-direction: row;
+    width: 23rem;
+    background-color: #000;
+}
+
+.explore img{
+    width: 1.5rem;    
+    margin-left: 0.5rem;
+    margin-top: 0.6rem;
+}
+
+.explore p{
+    margin-top: 2.3rem;
+    margin-left: 5rem;
+    font-size: 1.5rem;
+    color: white;
+    font-weight: 700;
+    white-space: nowrap;
+}

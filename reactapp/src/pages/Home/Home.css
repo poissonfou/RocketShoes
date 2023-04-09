@@ -1,0 +1,21 @@
+.main-section{
+    display: flex;
+    flex-direction: row;
+    position: absolute;
+}
+
+.offer-images{
+   background-color: #C4C4C4; 
+   width: 52.4rem;
+   height: 34rem;
+   margin-top: -4.2rem;
+   z-index: -1;
+}
+
+.main-offer{
+    background-color: #E5E5E5;
+    width: 33rem;
+    height: 34rem;
+    margin-top: -4.2rem;
+    z-index: -1;
+}

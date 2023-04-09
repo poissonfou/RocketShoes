@@ -1,5 +1,6 @@
 import './Home.css'
 import Header from '../../components/Header/Header'
+import Footer_socials from '../../components/Footer-socials/Footer-socials'
 
 function Home(){
     return(
@@ -7,12 +8,13 @@ function Home(){
         <Header />
         <main className="main-section">
             <div className="main-offer">
-                nfjk
+           
             </div>
             <div className="offer-images">
-                kjjbfk
+
             </div>
         </main>
+        <Footer_socials />
         </>
         )
 }
