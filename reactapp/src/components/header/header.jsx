@@ -1,10 +1,13 @@
-import "../header/header.css";
+import "./Header.css"
+import logo from '../../assets/logo.svg'
+import search from '../../assets/icon-search.svg'
+import bag from '../../assets/icon-bag.svg'
 
 function Header(){
     return(
         <>
         <header className="header">
-            <img src="../../assets/logo.svg" alt="Logo da empresa" />
+            <img src={logo} alt="Logo da empresa" className="logo"/>
             <div className="categories">
                 <p>HOMEM</p>
                 <p>MULHER</p>
@@ -12,12 +15,12 @@ function Header(){
                 <p>CUSTOMIZAR</p>
             </div>
 
-            <div className="input">
-                <img src="../../assets/icon-search.svg" alt="Ícone de pesquisa" />
+            <div className="input-div">
+                <img src={search} alt="Ícone de pesquisa" />
                 <input type="text" placeholder="Pesquisar" />
             </div>
 
-            <img src="../../assets/icon-bag.svg" alt="Ícone de sacola de compras" />
+            <img src={bag} alt="Ícone de sacola de compras" className="bag-image"/>
         </header>
         </>
     )

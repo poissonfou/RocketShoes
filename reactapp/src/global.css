@@ -6,3 +6,9 @@
     --footer: #000;
     --text-description: #9C9696;
   }
+
+  *{
+    margin: 0;
+    padding: 0;
+    font-family: "Roboto";
+  }
