@@ -4,6 +4,14 @@
     position: absolute;
 }
 
+.main-offer{
+    background-color: #E5E5E5;
+    width: 32rem;
+    height: 34rem;
+    margin-top: -4.2rem;
+    z-index: -1;
+}
+
 .offer-images{
    background-color: #C4C4C4; 
    width: 52.4rem;
@@ -12,10 +20,46 @@
    z-index: -1;
 }
 
-.main-offer{
-    background-color: #E5E5E5;
-    width: 33rem;
-    height: 34rem;
-    margin-top: -4.2rem;
-    z-index: -1;
+.offer-content{
+    width: 27rem;
+    height: 30rem;
+    margin-left: 1rem;
 }
+
+.offer-title{
+    width: 19rem;
+    margin-left: 5rem;
+    margin-top: 10rem;
+}
+
+.price{
+    font-weight: 700;
+    font-size: 2rem;
+    margin-top: 2rem;
+    margin-left:5rem;
+}
+
+.product-description{
+    color: #9C9696;
+    margin-left: 5rem;
+    margin-top: 1rem;
+}
+
+.offer-content h2{
+    font-size: 3.5rem;
+    white-space: wrap;
+}
+
+.offer-content button{
+    background-color: #FF0000;
+    border: none;
+    width: 14rem;
+    height: 5rem;
+    color: white;
+    font-weight: 700;
+    font-size: 1.2rem;
+    margin-left: 5rem;
+    margin-top: 1rem;
+}
+
+
