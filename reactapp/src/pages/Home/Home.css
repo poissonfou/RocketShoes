@@ -7,7 +7,7 @@
 .main-offer{
     background-color: #E5E5E5;
     width: 32rem;
-    height: 34rem;
+    height: 80rem;
     margin-top: -4.2rem;
     z-index: -1;
 }
@@ -15,7 +15,7 @@
 .offer-images{
    background-color: #C4C4C4; 
    width: 52.4rem;
-   height: 34rem;
+   height: 80rem;
    margin-top: -4.2rem;
    z-index: -1;
 }
@@ -62,4 +62,23 @@
     margin-top: 1rem;
 }
 
+.main-image{
+    margin-top: 10rem;
+    margin-left: 8rem;
+}
+
+.secondary-images{
+    padding-left: 0.7rem;
+    width: 50rem
+}
+
+.secondary-images img{
+    width: 15rem;
+    height: 10rem;
+}
+
+.img-two,
+.img-three{
+    margin-left: 1.7rem;
+}
 
