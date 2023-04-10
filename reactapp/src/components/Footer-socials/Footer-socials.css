@@ -1,12 +1,16 @@
 footer{
     display: flex;
     flex-direction: row;
-    margin-top: 60rem;
-    height: 6rem;
+    margin-top: 51rem;
+    height: 8rem;
 }
 
 footer img{
     width: 15rem;
+}
+
+footer img:hover{
+    cursor:pointer;
 }
 
 .socials{
@@ -19,25 +23,33 @@ footer img{
 
 .socials p{
     margin-left: 6rem;
-    margin-top: 2.5rem;
+    margin-top: 4rem;
+}
+
+.socials p:hover{
+    cursor: pointer;
 }
 
 .explore{
     display: flex;
     flex-direction: row;
-    width: 15rem;
+    width: 20rem;
     background-color: #000;
+}
+
+.explore:hover{
+    cursor: pointer;
 }
 
 .explore img{
     width: 1.5rem;    
-    margin-left: 0rem;
+    margin-left: 0.5rem;
     margin-top: 0.6rem;
 }
 
 .explore p{
-    margin-top: 2.3rem;
-    margin-left: 5rem;
+    margin-top: 3.4rem;
+    margin-left: 3.5rem;
     font-size: 1.5rem;
     color: white;
     font-weight: 700;

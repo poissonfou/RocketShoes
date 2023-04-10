@@ -7,15 +7,15 @@
 .main-offer{
     background-color: #E5E5E5;
     width: 32rem;
-    height: 80rem;
+    height: 60rem;
     margin-top: -4.2rem;
     z-index: -1;
 }
 
 .offer-images{
    background-color: #C4C4C4; 
-   width: 52.4rem;
-   height: 80rem;
+   width: 52.3rem;
+   height: 60rem;
    margin-top: -4.2rem;
    z-index: -1;
 }
@@ -68,7 +68,7 @@
 }
 
 .secondary-images{
-    padding-left: 0.7rem;
+    margin-left: 2.1rem;
     width: 50rem
 }
 
@@ -82,3 +82,7 @@
     margin-left: 1.7rem;
 }
 
+.img-two{
+    box-shadow: 0px 5px #FF0000;
+    margin-bottom: 0.5rem;
+ }
