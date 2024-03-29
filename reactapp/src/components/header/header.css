@@ -3,6 +3,8 @@ header {
   justify-content: space-around;
   align-items: center;
   padding: 1em 0em;
+  position: absolute;
+  width: 100%;
 }
 
 .categories {

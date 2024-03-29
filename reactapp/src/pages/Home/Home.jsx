@@ -1,6 +1,6 @@
 import "./Home.css";
 import Header from "../../components/Header/Header";
-import Footer from "../../components/Footer-socials/Footer";
+import Footer from "../../components/Footer/Footer";
 
 import main_image from "../../assets/tenis-1-ampliado.png";
 import img_1 from "../../assets/tenis-1-galeria.png";
